@@ -1,0 +1,152 @@
+project:
+  name: fake
+  path: /home/wemerson-porto/repository
+  branch: master
+  description: "test repository fake"
+  userName: WemersonThayne
+  accessToken: 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
+  date: 2022-02-21
+commits:
+  - message: commit 1
+    nameBranch: master
+    developer:
+      name: dev1
+      email: dev1@gmail.com
+    changes:
+      - path: a.txt
+        commitType: ADD
+        newContent: "text file a"
+        initLine: 1
+        finalLine: 2
+      - path: b.txt
+        commitType: ADD
+        newContent: "text file b\ntext line 2\ntext line 3"
+        initLine: 1
+        finalLine: 3
+  - message: commit 2
+    nameBranch: master
+    developer:
+      name: dev1
+      email: dev1@gmail.com
+    changes:
+      - path: a.txt
+        commitType: ALTER
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna."
+        initLine: 1
+        finalLine: 5
+      - path: b.txt
+        commitType: ALTER
+        newContent: "Purus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\n"
+        initLine: 3
+        finalLine: 5
+      - path: c.txt
+        commitType: ADD
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\n"
+        initLine: 1
+        finalLine: 5
+  - message: commit 3
+    nameBranch: master
+    developer:
+      name: dev2
+      email: dev2@gmail.com
+    changes:
+      - path: a.txt
+        commitType: ALTER
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit\nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        initLine: 6
+        finalLine: 7
+      - path: b.txt
+        commitType: ALTER
+        newContent: "new line 6\nnew line 7."
+        initLine: 5
+        finalLine: 6
+      - path: d.txt
+        commitType: ADD
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna."
+        initLine: 1
+        finalLine: 10
+  - message: commit 4
+    nameBranch: master
+    developer:
+      name: dev3
+      email: dev3@gmail.com
+    changes:
+      - path: e.txt
+        commitType: ADD
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna."
+        initLine: 1
+        finalLine: 10
+      - path: c.txt
+        commitType: ALTER
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        initLine: 5
+        finalLine: 8
+      - path: d.txt
+        commitType: ALTER
+        newContent: "Purus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis."
+        initLine: 1
+        finalLine: 2
+  - message: commit 5
+    nameBranch: master
+    developer:
+      name: dev2
+      email: dev2@gmail.com
+    changes:
+      - path: a.txt
+        commitType: ALTER
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida."
+        initLine: 7
+        finalLine: 12
+      - path: c.txt
+        commitType: ALTER
+        newContent: "Purus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis."
+        initLine: 1
+        finalLine: 2
+  - message: commit 6
+    nameBranch: master
+    developer:
+      name: dev1
+      email: dev1@gmail.com
+    changes:
+      - path: f.txt
+        commitType: ADD
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida."
+        initLine: 1
+        finalLine: 5
+      - path: b.txt
+        commitType: ALTER
+        newContent: "Mussum Ipsum, cacilds vidis litro abertis.\nMauris nec dolor in eros commodo tempor.\nAenean aliquam molestie leo, vitae iaculis nisl.\nSuco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.\nDetraxit consequat et quo num tendi nada.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.\nMussum Ipsum, cacilds vidis litro abertis.\nMauris nec dolor in eros commodo tempor.\nAenean aliquam molestie leo, vitae iaculis nisl.\nSuco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.\nDetraxit consequat et quo num tendi nada.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis."
+        initLine: 1
+        finalLine: 10
+  - message: commit 7
+    nameBranch: master
+    developer:
+      name: dev3
+      email: dev3@gmail.com
+    changes:
+      - path: d.txt
+        commitType: DELETE
+        newContent: ""
+        initLine: 4
+        finalLine: 5
+      - path: f.txt
+        commitType: DELETE
+        newContent: ""
+        initLine: 1
+        finalLine: 1
+      - path: g.txt
+        commitType: ADD
+        newContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida.\nPurus sit amet volutpat consequat mauris nunc congue nisi.\nSemper quis lectus nulla at volutpat diam ut venenatis.\nUt aliquam purus sit amet luctus venenatis lectus magna.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nMi tempus imperdiet nulla malesuada pellentesque elit eget gravida."
+        initLine: 1
+        finalLine: 5
+  - message: commit 8
+    nameBranch: master
+    developer:
+      name: dev1
+      email: dev1@gmail.com
+    changes:
+      - path: g.txt
+        commitType: DELETE_FILE
+        newContent: ""
+        initLine: 0
+        finalLine: 0

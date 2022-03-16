@@ -1,0 +1,65 @@
+project:
+  name: teste
+  path: /home/wemerson-porto/teste-yaml-file
+  branch: master-teste
+date: 2022-02-21
+commits:
+  - message: commit 1
+    developer:
+      name: wemerson
+      email: wemerson@gmail.com
+    changes:
+      - path: a.txt
+        commitType: add
+        contentActual: ""
+        newContent: "text file a"
+        initLine: 1
+        finalLine: 2
+      - path: b.txt
+        commitType: add
+        contentActual: ""
+        newContent: "text file b"
+        initLine: 1
+        finalLine: 2
+    nameBranch: master
+  - message: commit 2
+    developer:
+      name: wemerson
+      email: wemerson@gmail.com
+    changes:
+      - path: b.txt
+        commitType: alter
+        contentActual: "texto"
+        newContent: "new content\nnew line\nnew line 2"
+        initLine: 8
+        finalLine: 11
+  - message: commit 3
+    developer:
+      name: vital
+      email: vital@gmail.com
+    changes:
+      - path: c.txt
+        commitType: add
+        contentActual: ""
+        newContent: "new content\nnew line\nnew line 2"
+        initLine: 0
+        finalLine: 2
+      - path: b.txt
+        commitType: delete
+        contentActual: ""
+        newContent: ""
+        initLine: 1
+        finalLine: 3
+      - path: a.txt
+        commitType: delete_file
+        contentActual: ""
+        newContent: ""
+        initLine: 0
+        finalLine: 0
+      - path: d.txt
+        commitType: add
+        contentActual: ""
+        newContent: "new content\nnew line\nnew line 2"
+        initLine: 0
+        finalLine: 2
+    nameBranch: master

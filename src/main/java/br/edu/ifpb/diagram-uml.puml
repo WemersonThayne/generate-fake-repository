@@ -1,0 +1,78 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'abstract class AbstractList
+'abstract AbstractCollection
+'interface List
+'interface Collection
+'
+'List <|-- AbstractList
+'Collection <|-- AbstractCollection
+'
+'Collection <|- List
+'AbstractCollection <|- AbstractList
+'AbstractList <|-- ArrayList
+'
+'class ArrayList {
+'Object[] elementData
+'size()
+'}
+'
+'enum TimeUnit {
+'DAYS
+'HOURS
+'MINUTES
+'}
+
+class Project {
+    - String name
+    - String path
+    - String branch
+
+    +gets()
+    +sets()
+
+}
+
+class ConfigWrapper {
+    Project
+    LocalDate: date
+    List<Object> commits
+}
+
+Project --> ConfigWrapper
+
+
+'
+'class c {
+'- String message
+'- Developer developer
+'- List<Change> changes
+'- String nameBranch
+'}
+'
+'class Change {
+'- String path
+'- String commitType
+'- String newContent
+'- int initLine
+'- int finalLine
+'}
+''class br.edu.ifpb.Main {
+''+ {static} void progressPercentage(int,int)
+''+ {static} void main(String[])
+''+ {static} void commitPrepare(Change,Path,List<String>)
+''- {static} void commitTypeAdd(Change,Path)
+''- {static} void commitTypeAlter(Change,Path)
+''- {static} void commitTypeDeleteLine(Change,Path)
+''- {static} void commitTypeDeleteFile(Path)
+''}
+''class br.edu.ifpb.mapper.DeveloperMapper {
+''+ {static} Author mapper(Developer)
+''}
+'class  Developer {
+'- String name
+'- String email
+'}
+'
+@enduml
