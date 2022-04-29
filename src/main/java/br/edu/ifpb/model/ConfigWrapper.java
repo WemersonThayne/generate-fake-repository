@@ -1,20 +1,31 @@
 package br.edu.ifpb.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.util.List;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@JsonIgnoreProperties
 public class ConfigWrapper {
 
     private Project project;
     private List<Commit> commits;
 
+    public ConfigWrapper(){}
+    public ConfigWrapper(Project project, List<Commit> commits) {
+        this.project = project;
+        this.commits = commits;
+    }
 
+    public Project getProject() {
+        return project;
+    }
+
+    public void setProject(Project project) {
+        this.project = project;
+    }
+
+    public List<Commit> getCommits() {
+        return commits;
+    }
+
+    public void setCommits(List<Commit> commits) {
+        this.commits = commits;
+    }
 }
